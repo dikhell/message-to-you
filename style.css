@@ -13,7 +13,7 @@
 }
 html,
 body {
-  height: 100%;
+  height: auto;
 }
 body {
   margin: 0;
@@ -28,7 +28,6 @@ body {
     ),
     radial-gradient(1200px 600px at 80% 90%, #2a2d62 0%, transparent 60%),
     linear-gradient(160deg, var(--bg1), var(--bg2));
-  overflow: hidden;
 }
 .grain {
   position: fixed;
